@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/converterMenuCalculator"
+        android:title="@string/calculator"
+        android:icon="@drawable/calculator_icon"
+        android:iconTint="@color/customAccent"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/converterMenuRates"
+        android:title="@string/rates"
+        android:icon="@drawable/list_view_icon"
+        android:iconTint="@color/customAccent"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/converterMenuAbout"
+        android:title="@string/about"
+        android:icon="@drawable/information_icon"
+        android:iconTint="@color/customAccent"
+        app:showAsAction="ifRoom"/>
+</menu>

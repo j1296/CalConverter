@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/converterListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/converterListCode"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="@font/raleway_light"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:gravity="center_vertical">
+        </TextView>
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@color/customAccent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/converterListValue"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:fontFamily="@font/raleway_light"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="true">
+
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>
+

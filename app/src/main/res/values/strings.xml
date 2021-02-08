@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">CalConverter</string>
+    <string name="api_base_url">https://api.exchangeratesapi.io/latest</string>
+
+    <string name="back">Back</string>
+    <string name="convert">Convert</string>
+    <string name="rates">Rates</string>
+    <string name="calculator">Calculator</string>
+    <string name="converter">Converter</string>
+    <string name="about">About</string>
+
+    <string name="converter_amount_text">Enter Amount…</string>
+    <string name="converter_currency_text">Converting To</string>
+
+    <string name="plus_minus">+/-</string>
+    <string name="percent">%</string>
+    <string name="multiply">*</string>
+    <string name="minus">-</string>
+    <string name="add">+</string>
+    <string name="divide">/</string>
+    <string name="clear">C</string>
+    <string name="delete">DEL</string>
+    <string name="dot">.</string>
+    <string name="equals">=</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+    <string name="about_title">What is CalConverter?</string>
+    <string name="about_firstParagraph">CalConverter combines the functionality of a calculator and
+        currency converter within a single application, making it easier than every before to work
+        with foreign currencies!</string>
+    <string name="about_secondParagraph">CalConverter also provides a list of the current exchange
+        rates when compared against the pound (£).</string>
+    <string name="about_thirdParagraph">For any support, please contact:</string>
+
+    <string name="icons8_text">Icons by Icons8</string>
+    <string name="icons8_url">https://icons8.com</string>
+
+    <string name="author_email">j.kelsey@ncl.ac.uk</string>
+    <string name="author_course">CSC3122</string>
+    <string name="author_name">James Kelsey</string>
+    <string name="author_uni">Newcastle University</string>
+
+</resources>

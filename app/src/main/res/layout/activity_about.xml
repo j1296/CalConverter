@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/back"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/customAccent"
+        android:background="@drawable/btn_rounded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_title"
+        android:textSize="20sp"
+        android:textColor="@color/customAccent"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/about_firstParagraph"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/about_secondParagraph"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/about_thirdParagraph"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/author_email"
+        android:textSize="18sp"
+        android:textColor="@color/customAccent"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/icons8Link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:layout_marginHorizontal="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/hyperlinkBlue"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/author_course"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/author_name"
+        android:textSize="18sp"
+        android:textColor="@color/customAccent"
+        android:textAlignment="center">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/author_uni"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center">
+    </TextView>
+
+</LinearLayout>

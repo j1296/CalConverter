@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="2dp">
+
+    <gradient
+        android:endColor="@color/customAccent"
+        android:centerColor="@color/customAccent"
+        android:startColor="@color/customAccent" />
+
+    <corners android:radius="8dp" />
+    <size android:width="4dp"/>
+    <padding
+        android:left="0.5dp"
+        android:right="0.5dp" />
+
+</shape>

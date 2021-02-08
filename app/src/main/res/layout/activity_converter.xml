@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".ConverterActivity"
+    android:clickable="true"
+    android:focusableInTouchMode="true">
+
+    <include
+        layout="@layout/converter_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </include>
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/convert"
+        android:textColor="@color/customAccent"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_rounded"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+    <ListView
+        android:id="@+id/converterListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarSize="8dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_colour">
+    </ListView>
+
+</LinearLayout>

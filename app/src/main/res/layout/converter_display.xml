@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/customPrimaryDark">
+
+        <EditText
+            android:id="@+id/currencyValueText"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:hint="@string/converter_amount_text"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/customAccent"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:inputType="numberDecimal">
+        </EditText>
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/customAccent">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/fromSpinner"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:paddingStart="30dp"
+            android:backgroundTint="@color/customAccent"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/customPrimary">
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:text="@string/converter_currency_text"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:gravity="center_vertical">
+        </TextView>
+
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/customAccent">
+        </TextView>
+
+        <Spinner
+            android:id="@+id/toSpinner"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            android:paddingStart="30dp"
+            android:backgroundTint="@color/customAccent" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="customPrimary">#404040</color>
+    <color name="customPrimaryDark">#000000</color>
+    <color name="customAccent">#FFF07C</color>
+    <color name="customText">#F0F7EE</color>
+    <color name="green">#70AD47</color>
+    <color name="hyperlinkBlue">#2B4DCB</color>
+</resources>
